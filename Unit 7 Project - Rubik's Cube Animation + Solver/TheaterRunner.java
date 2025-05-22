@@ -1,0 +1,477 @@
+import org.code.theater.*;
+import org.code.media.*;
+
+public class TheaterRunner {
+  public static void main(String[] args) {
+
+
+    RubiksCube cube = new RubiksCube();
+    RubiksCubeScene scene = new RubiksCubeScene();
+    RubiksCubeScene scene2 = new RubiksCubeScene();
+    
+
+    scene.drawCube(cube, 0);
+
+
+    cube.turnSide(1, 2);
+    scene.drawCube(cube, 0);
+    scene.pause(1);
+
+    cube.turnSide(4, 1);
+    scene.drawCube(cube, 0);
+    scene.pause(1);
+    cube.turnSide(0, 1);
+    scene.drawCube(cube, 0);
+    scene.pause(1);
+
+    cube.turnSide(2, 1);
+    scene.drawCube(cube, 0);
+    scene.pause(1);
+    cube.turnSide(5, 3);
+    scene.drawCube(cube, 0);
+    scene.pause(1);
+    cube.turnSide(2, 3);
+    scene.drawCube(cube, 0);
+    scene.pause(1);
+
+    cube.turnSide(5, 3);
+    scene.drawCube(cube, 0);
+    scene.pause(1);
+    cube.turnSide(0, 3);
+    scene.drawCube(cube, 0);
+    scene.pause(1);
+    cube.turnSide(1, 2);
+    scene.drawCube(cube, 0);
+    scene.pause(1);
+    cube.turnSide(0, 1);
+    scene.drawCube(cube, 0);
+    scene.pause(1);
+
+    cube.turnSide(5, 3);
+    scene.drawCube(cube, 0);
+    scene.pause(1);
+    cube.turnSide(3, 1);
+    scene.drawCube(cube, 0);
+    scene.pause(1);
+    cube.turnSide(2, 3);
+    scene.drawCube(cube, 0);
+    scene.pause(1);
+
+    cube.turnSide(5, 1);
+    scene.drawCube(cube, 0);
+    scene.pause(1);
+    cube.turnSide(3, 2);
+    scene.drawCube(cube, 0);
+    scene.pause(1);
+
+    cube.turnSide(5, 3);
+    scene.drawCube(cube, 0);
+    scene.pause(1);
+    cube.turnSide(3, 3);
+    scene.drawCube(cube, 0);
+    scene.pause(1);
+    cube.turnSide(5, 1);
+    scene.drawCube(cube, 0);
+    scene.pause(1);
+    cube.turnSide(3, 1);
+    scene.drawCube(cube, 0);
+    scene.pause(1);
+
+    cube.turnSide(4, 3); // completed white square
+    scene.drawCube(cube, 0);
+    scene.pause(1);
+
+    cube.turnSide(5, 3);
+    scene.drawCube(cube, 0);
+    scene.pause(0.5); // speeds up here due to video length limit
+    cube.turnSide(1, 3);
+    scene.drawCube(cube, 0);
+    scene.pause(0.5);
+    cube.turnSide(5, 1);
+    scene.drawCube(cube, 0);
+    scene.pause(0.5);
+    cube.turnSide(1, 1);
+    scene.drawCube(cube, 0);
+    scene.pause(0.5);
+    cube.turnSide(5, 1);
+    scene.drawCube(cube, 0);
+    scene.pause(0.5);
+    cube.turnSide(0, 1);
+    scene.drawCube(cube, 0);
+    scene.pause(0.5);
+    cube.turnSide(5, 3);
+    scene.drawCube(cube, 0);
+    scene.pause(0.5);
+    cube.turnSide(0, 3);
+    scene.drawCube(cube, 0);
+    scene.pause(0.5);
+
+    cube.turnSide(3, 3);
+    scene.drawCube(cube, 0);
+    scene.pause(0.5);
+    cube.turnSide(5, 1);
+    scene.drawCube(cube, 0);
+    scene.pause(0.5);
+    cube.turnSide(3, 1);
+    scene.drawCube(cube, 0);
+    scene.pause(0.5);
+    cube.turnSide(5, 1);
+    scene.drawCube(cube, 0);
+    scene.pause(0.5);
+    cube.turnSide(2, 1);
+    scene.drawCube(cube, 0);
+    scene.pause(0.5);
+    cube.turnSide(5, 3);
+    scene.drawCube(cube, 0);
+    scene.pause(0.5);
+    cube.turnSide(2, 2);
+    scene.drawCube(cube, 0);
+    scene.pause(0.5);
+    cube.turnSide(5, 1);
+    scene.drawCube(cube, 0);
+    scene.pause(0.5);
+    cube.turnSide(2, 1);
+    scene.drawCube(cube, 0);
+    scene.pause(0.5);
+    cube.turnSide(5, 1);
+    scene.drawCube(cube, 0);
+    scene.pause(0.5);
+    cube.turnSide(1, 1);
+    scene.drawCube(cube, 0);
+    scene.pause(0.5);
+    cube.turnSide(5, 3);
+    scene.drawCube(cube, 0);
+    scene.pause(0.5);
+    cube.turnSide(1, 3);
+    scene.drawCube(cube, 0);
+    scene.pause(0.5);
+
+    cube.turnSide(5, 1);
+    scene.drawCube(cube, 0);
+    scene.pause(0.5);
+    cube.turnSide(2, 1);
+    scene.drawCube(cube, 0);
+    scene.pause(0.5);
+    cube.turnSide(5, 3);
+    scene.drawCube(cube, 0);
+    scene.pause(0.5);
+    cube.turnSide(2, 3);
+    scene.drawCube(cube, 0);
+    scene.pause(0.5);
+    cube.turnSide(5, 3);
+    scene.drawCube(cube, 0);
+    scene.pause(0.5);
+    cube.turnSide(3, 3);
+    scene.drawCube(cube, 0);
+    scene.pause(0.5);
+    cube.turnSide(5, 1);
+    scene.drawCube(cube, 0);
+    scene.pause(0.5);
+    cube.turnSide(3, 1);
+    scene.drawCube(cube, 0);
+    scene.pause(0.5);
+
+    cube.turnSide(0, 3);
+    scene.drawCube(cube, 0);
+    scene.pause(0.5);
+    cube.turnSide(5, 1);
+    scene.drawCube(cube, 0);
+    scene.pause(0.5);
+    cube.turnSide(0, 1);
+    scene.drawCube(cube, 0);
+    scene.pause(0.5);
+    cube.turnSide(5, 1);
+    scene.drawCube(cube, 0);
+    scene.pause(0.5);
+    cube.turnSide(3, 1);
+    scene.drawCube(cube, 0);
+    scene.pause(0.5);
+    cube.turnSide(5, 3);
+    scene.drawCube(cube, 0);
+    scene.pause(0.5);
+    cube.turnSide(3, 3);
+    scene.drawCube(cube, 0);
+    scene.pause(0.5);
+
+    cube.turnSide(5, 1);
+    scene.drawCube(cube, 0);
+    scene.pause(0.5);
+    cube.turnSide(0, 3);
+    scene.drawCube(cube, 0);
+    scene.pause(0.5);
+    cube.turnSide(5, 1);
+    scene.drawCube(cube, 0);
+    scene.pause(0.5);
+    cube.turnSide(0, 1);
+    scene.drawCube(cube, 0);
+    scene.pause(0.5);
+    cube.turnSide(5, 1);
+    scene.drawCube(cube, 0);
+    scene.pause(0.5);
+    cube.turnSide(3, 1);
+    scene.drawCube(cube, 0);
+    scene.pause(0.5);
+    cube.turnSide(5, 3);
+    scene.drawCube(cube, 0);
+    scene.pause(0.5);
+    cube.turnSide(3, 3); // sides complete
+    scene.drawCube(cube, 0);
+    scene.pause(0.5);
+
+    scene.drawCube(cube, 1);
+    scene.pause(1);
+    
+    cube.turnSide(3, 1);
+    scene.drawCube(cube, 1);
+    scene.pause(1);
+    cube.turnSide(2, 1);
+    scene.drawCube(cube, 1);
+    scene.pause(1);
+    cube.turnSide(5, 1);
+    scene.drawCube(cube, 1);
+    scene.pause(1);
+    cube.turnSide(2, 3);
+    scene.drawCube(cube, 1);
+    scene.pause(1);
+    cube.turnSide(5, 3);
+    scene.drawCube(cube, 1);
+    scene.pause(1);
+    cube.turnSide(3, 3);
+    scene.drawCube(cube, 1);
+    scene.pause(1);
+
+    cube.turnSide(0, 1);
+    scene.drawCube(cube, 1);
+    scene.pause(1);
+    cube.turnSide(3, 1);
+    scene.drawCube(cube, 1);
+    scene.pause(1);
+    cube.turnSide(5, 1);
+    scene.drawCube(cube, 1);
+    scene.pause(1);
+    cube.turnSide(3, 3);
+    scene.drawCube(cube, 1);
+    scene.pause(1);
+    cube.turnSide(5, 3);
+    scene.drawCube(cube, 1);
+    scene.pause(1);
+    cube.turnSide(0, 3); // cross complete
+    scene.drawCube(cube, 1);
+    scene.pause(1);
+
+    cube.turnSide(0, 1);
+    scene.drawCube(cube, 1);
+    scene.pause(1);
+    cube.turnSide(5, 2);
+    scene.drawCube(cube, 1);
+    scene.pause(1);
+    cube.turnSide(0, 3);
+    scene.drawCube(cube, 1);
+    scene.pause(1);
+    cube.turnSide(5, 3);
+    scene.drawCube(cube, 1);
+    scene.pause(1);
+    cube.turnSide(0, 1);
+    scene.drawCube(cube, 1);
+    scene.pause(1);
+    cube.turnSide(5, 3);
+    scene.drawCube(cube, 1);
+    scene.pause(1);
+    cube.turnSide(0, 3);
+    scene.drawCube(cube, 1);
+    scene.pause(1);
+
+    cube.turnSide(3, 1);
+    scene.drawCube(cube, 1);
+    scene.pause(1);
+    cube.turnSide(5, 2);
+    scene.drawCube(cube, 1);
+    scene.pause(1);
+    cube.turnSide(3, 3);
+    scene.drawCube(cube, 1);
+    scene.pause(1);
+    cube.turnSide(5, 3);
+    scene.drawCube(cube, 1);
+    scene.pause(1);
+    cube.turnSide(3, 1);
+    scene.drawCube(cube, 1);
+    scene.pause(1);
+    cube.turnSide(5, 3);
+    scene.drawCube(cube, 1);
+    scene.pause(1);
+    cube.turnSide(3, 3); // aligned the cross
+    scene.drawCube(cube, 1);
+    scene.pause(1);
+
+    cube.turnSide(1, 3);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    cube.turnSide(5, 1);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    cube.turnSide(3, 1);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    cube.turnSide(5, 3);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    cube.turnSide(1, 1);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    cube.turnSide(5, 1);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    cube.turnSide(3, 3);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    cube.turnSide(5, 3);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+
+    cube.turnSide(0, 1);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    cube.turnSide(5, 2);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    cube.turnSide(0, 3);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    cube.turnSide(5, 3);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    cube.turnSide(0, 1);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    cube.turnSide(5, 3);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    cube.turnSide(0, 3);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    // half
+    cube.turnSide(2, 3);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    cube.turnSide(5, 2);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    cube.turnSide(2, 1);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    cube.turnSide(5, 1);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    cube.turnSide(2, 3);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    cube.turnSide(5, 1);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    cube.turnSide(2, 1);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+
+    cube.turnSide(0, 1);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    cube.turnSide(5, 2);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    cube.turnSide(0, 3);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    cube.turnSide(5, 3);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    cube.turnSide(0, 1);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    cube.turnSide(5, 3);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    cube.turnSide(0, 3);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    // half
+    cube.turnSide(2, 3);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    cube.turnSide(5, 2);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    cube.turnSide(2, 1);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    cube.turnSide(5, 1);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    cube.turnSide(2, 3);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    cube.turnSide(5, 1);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    cube.turnSide(2, 1);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+
+    cube.turnSide(3, 1);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    cube.turnSide(5, 2);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    cube.turnSide(3, 3);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    cube.turnSide(5, 3);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    cube.turnSide(3, 1);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    cube.turnSide(5, 3);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    cube.turnSide(3, 3);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    // half
+    cube.turnSide(1, 3);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    cube.turnSide(5, 2);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    cube.turnSide(1, 1);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    cube.turnSide(5, 1);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    cube.turnSide(1, 3);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    cube.turnSide(5, 1);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+    cube.turnSide(1, 1);
+    scene2.drawCube(cube, 1);
+    scene2.pause(1);
+
+
+    // uncomment for a neat pattern at the end!
+    // cube.turnSide(0, 2);
+    // cube.turnSide(2, 2);
+    // cube.turnSide(1, 2);
+    // cube.turnSide(3, 2);
+    // cube.turnSide(4, 2);
+    // cube.turnSide(5, 2);
+    
+    
+    scene2.drawCube(cube, 0);
+    
+    Theater.playScenes(scene, scene2);
+  }
+}
